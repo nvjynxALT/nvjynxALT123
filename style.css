@@ -1,0 +1,65 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.description
+{
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.game
+{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.ui-level
+{
+    font-size: 2.3rem;
+    padding-top: 2rem;
+}
+
+.ui-message
+{
+    font-size: 1.6rem;
+}
+
+.level-two
+{
+    display: none;
+}
+
+.next-level
+{
+    padding: 1rem 3rem;
+    background: rgb(211, 167, 167);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+}
+
+.picture
+{
+    position: fixed; /* this way it covers the while screen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}

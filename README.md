@@ -1,2 +1,2 @@
 # SCARY-GAME
-Using vanilla JavaScript, I made a recreation of the Scary Maze Game.
+Using vanilla JavaScript and Figma desgin studio I created a derivative of the classic Scary Maze Game. 
